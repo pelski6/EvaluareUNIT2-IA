@@ -1,0 +1,140 @@
+body{
+    font-family: 'Montserrat', Times, serif;
+    text-align: left;
+    align-items: left;
+    background-color: rgb(185, 185, 185);
+}
+#NumePrenume{
+    color:rgb(255, 255, 255);
+    font-size: xx-large;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(55, 255, 0);
+}
+p{
+    color:rgb(255, 255, 255);
+    font-size:large;
+    text-decoration: underline;
+}
+h1{
+    color:rgb(53, 47, 145);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    text-decoration: underline;
+    font-style: italic;
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-size:small;
+}
+h3{
+    color:rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(0, 247, 255, 0.267);
+    border: 2px solid red;
+}
+h5{
+    color: rgba(76, 0, 255, 0.212);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    border: 3px solid black;
+    background-color: peru;
+}
+h6{
+    color:blue;
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+    font-family: arial;
+    font-style: normal;
+}
+td{
+    color:rgb(255, 255, 255);
+    font-size:small;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+}
+ul{
+    color:rgb(255, 255, 255);
+    width:25%;
+    margin-left:left;
+    margin-right:left;
+    font-size:small;
+}
+table{
+    margin-left:left;
+    margin-right:left;
+    border: 1px solid purple;
+}
+p{
+    color:rgb(53, 47, 145);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    text-decoration: underline;
+    font-style: italic;
+}
+td{
+    border: 1px solid rgb(100, 0, 255);
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;
+position: absolute;
+width: 100%;
+height: 100%;}
+button {
+  margin-top: 10px;
+}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
